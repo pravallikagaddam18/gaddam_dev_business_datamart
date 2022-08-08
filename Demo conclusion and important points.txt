@@ -1,0 +1,143 @@
+Demo Over View and Faqs:
+a) When was Power BI Announced?
+	July-2013
+b) What kind of versioning we have in PBI?
+	No versioning and we have monthly update
+c) Why we have monthly update and what it has in every month?
+	To continously monitor market and to add cutting edge technologies.
+	a) New features
+	b) Deprecations [Functionality Removed]
+	c) Upcoming features [ Preview Features]
+	d) Changes to the existing [Functionality Modified]
+d) What exactly PBI has than MSBI [First MS BI Product]? 
+	1) SSBI Single Application 
+	2) More support to cloud
+	3) More mobile and tab friendly
+	4) Wonderful support for embedding
+	5) Multiple langugaes integration [R, Python, Machine Learning etc.]
+	6) Has capability to develop own visuals
+	7) Simple and Easy to Operate
+e) Input and Output of PBI?
+
+	Input: AnyType of Data, AnyFormat of Data, AnyMode of Data
+		
+		AnyType of Data:
+				Structured, Semi-Structured, Unstructured
+		AnyFormat:
+				File Format / Two-Dimensional Table / Multi-Dimensional Cube / Compressed
+		AnyMode:
+				Cloud:  Other organizations storage
+				On-Premise: Within the organzation storage
+
+	Output: Report / Dashboard
+
+		Report:
+			a) Individual Operation Specification Component
+			b) Contain more visuals and displays more data
+			c) Companies maintain multiple reports 
+
+		Dashboard:
+			a) Single subject area specification component
+			b) Contain less visuals and simple cute visuals for quick decision making
+			c) Usally limited dashboards in the organization
+			Note: Multiple reports information we take in a place...that is dashboard
+
+
+What is Power Platform?
+		 A newly introduced platform [2019] with the below components
+		a) Power BI: Generate reports and dashboards
+		b) Power Apps: No Code / Low Code approach to generate mobile / tab friendly apps
+		c) Power Automate: Automate the process by creating flows.
+			Ex: As soon as you receive an email the DWH loading should be triggered
+			   Once you receive an email your watch should alarm
+		d) Virtual Agent:
+			To create intelligent chotbots with less code
+		e) Power Pages
+
+		Note: MS is the leader for Power APps, Power Automate, Power BI
+
+What are the important components Power Bi has?
+
+		Cloud Operations: [Companies do not require server, storage and managing in their area]
+
+		a) Power BI Desktop:
+			SSBI application to perform end-end operations
+		b) Power Bi Service:
+				It is cloud service for reports, dashboards storage and management
+				It requires an account to work with [Free, Pro, Premium, Embedded]
+
+			Note: PBI Service store its information in Azure Cloud [Blob, Datalake, SQL Database]
+		
+		On-Premise Operations: [Companies who wants have server, storage and managing in their area]
+
+		a) Power Bi Desktop for Report Server:
+			SSBI application to perform end-end operations
+		b) Power Bi Server:
+				It is On-Premises server for reports, dashboards storage and management
+				It requires windows credentials to work with [Free, Pro, Premium, Embedded]
+
+				Note: SQL Server Storage
+
+		Other Components:
+
+		a) Power BI Developer:
+				1. To create our own visual
+				2. To maintain embedding codes to place in web portals / blogs / applications
+
+
+		b) Power BI for Mobile
+
+		c) Paginated Report Builder
+
+				PBI Desktop: Rports are non paginated. [since 2013]
+				
+				Paginated Report Builder: 2017 added. Its not new...it iss SSRS component.
+
+				Pagination:
+					a) Which is printable
+					b) Data can split into multiple pages
+					Note: 100 records should split into 10 pages with each page 10 records
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In case any value missing...will be treated as NULL in Power Query and BLANK in Power View
+
